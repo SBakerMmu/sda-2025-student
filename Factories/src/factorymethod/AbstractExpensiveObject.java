@@ -1,0 +1,5 @@
+package factorymethod;
+
+interface AbstractExpensiveObject {
+
+}
