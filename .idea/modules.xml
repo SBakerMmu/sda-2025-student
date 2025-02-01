@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Commands/Commands.iml" filepath="$PROJECT_DIR$/Commands/Commands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factories/Factories.iml" filepath="$PROJECT_DIR$/Factories/Factories.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaRecap/JavaRecap.iml" filepath="$PROJECT_DIR$/JavaRecap/JavaRecap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiClassDesign/MultiClassDesign.iml" filepath="$PROJECT_DIR$/MultiClassDesign/MultiClassDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observers/Observers.iml" filepath="$PROJECT_DIR$/Observers/Observers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pipelines/Pipelines.iml" filepath="$PROJECT_DIR$/Pipelines/Pipelines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleClassDesign/SingleClassDesign.iml" filepath="$PROJECT_DIR$/SingleClassDesign/SingleClassDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/States/States.iml" filepath="$PROJECT_DIR$/States/States.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variations/Variations.iml" filepath="$PROJECT_DIR$/Variations/Variations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sda-2025-student.iml" filepath="$PROJECT_DIR$/.idea/sda-2025-student.iml" />
+    </modules>
+  </component>
+</project>
