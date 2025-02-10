@@ -7,8 +7,8 @@ public final class Example {
         try {
             CompanyPrefix prefix = new CompanyPrefix(320000);
             ItemReference reference = new ItemReference(377);
-            GTIN13 gtin = new GTIN13(prefix, reference);
-            GTIN13 scannedGtin = GTIN13.parse("3200000003774");
+            Gtin13 gtin = new Gtin13(prefix, reference);
+            Gtin13 scannedGtin = Gtin13.parse("3200000003774");
 
             System.out.printf("%s\n", prefix);
             System.out.printf("%s\n", reference);
@@ -22,7 +22,6 @@ public final class Example {
         } catch (InvalidException ex) {
             System.out.printf("%s\n", ex);
         }
-
-
     }
+
 }

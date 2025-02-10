@@ -1,20 +1,20 @@
-package contracts.src.valueobjects;
+package polymorphicsellingpriceproduct;
 
 import java.util.Objects;
 
-class FullPrice {
-    public static final FullPrice ZERO = new FullPrice();
-
-    private static final double NONE = 0.0d;
+class MinimumPrice {
+    public static final MinimumPrice NO_MINIMUM = new MinimumPrice();
+    static final double NONE = 0.0d;
     final private double price;
 
-    private FullPrice() {
+    private MinimumPrice() {
         this(NONE);
     }
 
-    public FullPrice(double price) {
+    public MinimumPrice(double price) {
+        //do the preconditions
         if (price < NONE) {
-            //throw
+            //throw exception
         }
         this.price = price;
     }
@@ -22,8 +22,8 @@ class FullPrice {
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
-        FullPrice fullPrice = (FullPrice) o;
-        return Double.compare(price, fullPrice.price) == 0;
+        MinimumPrice that = (MinimumPrice) o;
+        return Double.compare(price, that.price) == 0;
     }
 
     @Override
@@ -33,7 +33,7 @@ class FullPrice {
 
     @Override
     public String toString() {
-        return "FullPrice{" +
+        return "MinimumPrice{" +
                 "price=" + price +
                 '}';
     }

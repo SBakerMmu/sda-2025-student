@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/Observers/Observers.iml" filepath="$PROJECT_DIR$/Observers/Observers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pipelines/Pipelines.iml" filepath="$PROJECT_DIR$/Pipelines/Pipelines.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SingleClassDesign/SingleClassDesign.iml" filepath="$PROJECT_DIR$/SingleClassDesign/SingleClassDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/States/States.iml" filepath="$PROJECT_DIR$/States/States.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Strategy/Strategy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variations/Variations.iml" filepath="$PROJECT_DIR$/Variations/Variations.iml" />
