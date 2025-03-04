@@ -17,4 +17,9 @@ class RetailProduct extends Product {
     public void print(ProductPrinter printer) {
         printer.print(this);
     }
+
+    @Override
+    public String toString() {
+        return id.toString();
+    }
 }
