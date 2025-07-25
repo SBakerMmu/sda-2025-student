@@ -4,6 +4,7 @@ public class Main {
         rbgtatemachineswitch.Example.run();
         rbgstatemachinestatepattern.Example.run();
         extendedstatemachine.Example.run();
+        countdown.Example.run();
         orderstatemachine.Example.run();
         generalstatepattern.Example.run();
     }
